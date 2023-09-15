@@ -1,0 +1,36 @@
+@mixin laptop() {
+  @media (max-width: 1200px) {
+    @content;
+  }
+}
+
+@mixin tablet() {
+  @media (max-width: 1080px) {
+    @content;
+  }
+}
+
+@mixin mobile() {
+  @media (max-width: 769px) {
+    @content;
+  }
+}
+
+@mixin mobile-small() {
+  @media (max-width: 425px) {
+    @content;
+  }
+}
+
+
+@mixin is-mobile() {
+  @at-root .js-is-mobile & {
+    @content;
+  }
+}
+
+@mixin is-desktop() {
+  @at-root .js-is-desktop & {
+    @content;
+  }
+}

@@ -1,0 +1,28 @@
+@mixin text-tt-15() {
+  font-size: em(15);
+  line-height: em(20, 15);
+  letter-spacing: em(0.601);
+  text-transform: uppercase;
+}
+
+@mixin text-tt-16() {
+  font-size: em(16);
+  leading-trim: both;
+  line-height: em(20, 16);
+  text-edge: cap;
+}
+
+@mixin text-tt-64() {
+  leading-trim: both;
+  text-edge: cap;
+  font-size: em(64);
+  line-height: 1em;
+  text-transform: uppercase;
+}
+@mixin text-tt-96() {
+  leading-trim: both;
+  text-edge: cap;
+  font-size: em(96);
+  line-height: 1em;
+  text-transform: uppercase;
+}

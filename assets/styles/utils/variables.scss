@@ -1,0 +1,30 @@
+// # font
+$font-size-default: 16;
+$font-family-base: 'Open Sans', sans-serif;
+$font-family-headers: 'Montserrat', sans-serif;
+$font-family-buttons: 'Roboto Condensed', sans-serif;
+
+// # colors
+$color-black-default: #080808;
+$color-black: #000000;
+$color-black-2: #333333;
+
+$color-white: #ffffff;
+
+$color-blue: #25b5e5;
+$color-blue-2: #123559;
+
+
+// # paths
+$fonts-path: "/fonts";
+$images-path: "/images";
+
+// # timing
+$time-faster: 100ms;
+$time-fast: 200ms;
+$time-normal: 300ms;
+$time-slow: 400ms;
+$time-slower: 500ms;
+
+// # container
+$container-max-width: 1260px;

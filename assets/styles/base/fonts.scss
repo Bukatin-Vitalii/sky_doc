@@ -1,0 +1,26 @@
+// Montserrat (headers)
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&display=swap');
+
+// Open Sans Variable (base)
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap');
+
+// Roboto Condensed (buttons)
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+// @mixin font-face($font-family, $file-path, $weight: normal, $style: normal ) {
+//   @font-face {
+//     font-family: $font-family;
+//     font-weight: $weight;
+//     font-style: $style;
+//     font-display: swap;
+
+//     src: url('#{$file-path}.woff2') format("woff2-variations");
+//     font-stretch: 75% 125%;
+//   }
+// }
+
+// @include font-face('TTSquaresCondensed', '#{$fonts-path}/TTSquaresCondensed/TTSquaresCondensed-Thin', 100);
+// @include font-face('TTSquaresCondensed', '#{$fonts-path}/TTSquaresCondensed/TTSquaresCondensed-Light', 300);
+// @include font-face('TTSquaresCondensed', '#{$fonts-path}/TTSquaresCondensed/TTSquaresCondensed-Regular', 400);
+// @include font-face('TTSquaresCondensed', '#{$fonts-path}/TTSquaresCondensed/TTSquaresCondensed-Bold', 700);
+// @include font-face('TTSquaresCondensed', '#{$fonts-path}/TTSquaresCondensed/TTSquaresCondensed-Black', 800);
